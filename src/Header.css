@@ -26,6 +26,11 @@
   width: 100%;
   outline-width: 0px;
 }
+@media (max-width: 680px) {
+  .header__searchInput {
+    width: 180px;
+  }
+}
 .header__searchIcon {
   padding: 5px;
   height: 22px !important;
