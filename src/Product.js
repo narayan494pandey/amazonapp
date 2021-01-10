@@ -7,7 +7,7 @@ function Product({id,title, image,price,rating}) {
     const addToBasket = () =>{
         //dispatching the item into data layer
         dispatch({
-            type:"Add_TO_BASKET",
+            type:"ADD_TO_BASKET",
             item:{
                 id:id,
                 title:title,
