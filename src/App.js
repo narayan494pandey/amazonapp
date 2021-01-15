@@ -4,6 +4,7 @@ import './App.css'
 import Header from './Header';
 import Home from './Home';
 import Checkout from './Checkout';
+import Login from './Login';
 function App() {
   return (
       <Router>
@@ -12,6 +13,9 @@ function App() {
           <Switch>
             <Route path="/checkout">
               <Checkout />
+            </Route>
+            <Route path="/login">
+              <Login />
             </Route>
             <Route path="/">
               <Home />
